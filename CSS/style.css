@@ -13,6 +13,7 @@ nav{
     top: 0;
     z-index: 999;
     width: 100vw;
+    background-color: white;
 }
 
 nav a{
@@ -38,4 +39,39 @@ nav a{
     color: white;
 }
 
-.jumbotron-background{}
+.jumbotron-background{
+    background-color: #97CCF8;
+    margin-top: 72px;
+}
+
+.jumbotron-conteiner{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.titolo{
+    font-family: "Roboto";
+    font-size: 80px;
+    font-weight: bolder;
+    margin-bottom: 65px;
+}
+
+.jumbotron-flex{
+    display: flex;
+}
+
+.jumbotron-flex-1st{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.jumbotron-flex img{
+    width: 100%;
+}
+
+.jumbotron-flex span{
+    font-family: "Roboto";
+}
