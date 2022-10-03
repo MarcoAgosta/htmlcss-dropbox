@@ -3,3 +3,39 @@
     padding: 0;
     margin: 0;
 }
+
+nav{
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid darkgray;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100vw;
+}
+
+nav a{
+    text-decoration: none;
+    color: darkgray;
+    margin: 0px 30px;
+    vertical-align: super;
+}
+
+.nav-button{
+    padding: 8px 20px;
+    border: none;
+    vertical-align: super;
+}
+
+.white-button{
+    background-color: white;
+    color: darkgray
+}
+
+.blue-button{
+    background-color: #0061FF;
+    color: white;
+}
+
+.jumbotron-background{}
