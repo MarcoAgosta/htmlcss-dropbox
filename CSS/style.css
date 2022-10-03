@@ -206,3 +206,30 @@ main h1{
 .fa-check{
     color: #0061FF;
 }
+
+.piano-enterprise{
+    border: 1px solid darkgray;
+}
+
+.enterprise{
+    position: relative;
+    padding: 25px;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+}
+
+.enterprise .blue-button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 1rem 2rem;
+}
+
+.enterprise h5{
+    margin: 15px 0px;
+}
+
+.enterprise span{
+    margin-top: 50px;
+}
