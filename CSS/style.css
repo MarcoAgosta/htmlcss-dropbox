@@ -37,6 +37,7 @@ nav a{
 .blue-button{
     background-color: #0061FF;
     color: white;
+    border: none;
 }
 
 .jumbotron-background{
@@ -89,4 +90,119 @@ nav a{
 .downarrow{
     font-size: 60px;
     margin-top: 60px;
+}
+
+.conteiner{
+    margin: 150px auto;
+    width: 920px;
+}
+
+main h1{
+    font-family: "Roboto";
+}
+
+.piano-titolo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+}
+
+.piano-titolo span{
+    font-family: "Roboto";
+    vertical-align: top;
+}
+
+.piano-titolo input[type=radio] {
+    border-color: darkgray;
+    border-radius: 10px;
+    width: 3%;
+    height: 1rem;
+}
+
+.colonna{
+    border: 1px solid darkgray;
+    margin: 45px 0px;
+    width: 31%;
+    font-family: "Roboto";
+}
+
+.piano-colonne{
+    display: flex;
+    justify-content: space-between;
+}
+
+.piano-colonna{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.titoletto{
+    width: 100%;
+    border-bottom: 1px solid darkgray;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.titoletto h5{
+    font-weight: normal;
+}
+
+.piano-colonna h4{
+    margin-top: 50px;
+}
+
+.piano-colonna h5{
+    margin: 15px 0px;
+}
+
+.piano-nomeprezzo span{
+    color: darkgray;
+    font-size: .9rem;
+
+}
+
+.colonna-lista{
+    margin: 45px 0px;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    right: 10px;
+}
+
+.colonna-lista h5{
+    margin-left: 20px;
+    font-size: .9rem;
+}
+
+.colonna-lista-item{
+    padding: .5rem;
+    display: flex;
+}
+
+.colonna-lista-item i{
+    margin-right: .3rem;
+    position: relative;
+    top: 2px;
+}
+
+.lista-button{
+    padding: 1rem .7rem;
+}
+
+.acquistaora{
+    margin: 30px 0px;
+}
+
+.tratto{
+    background-color: darkgray;
+    height: 1px;
+    width: 20%;
+}
+
+.fa-check{
+    color: #0061FF;
 }
