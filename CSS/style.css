@@ -48,11 +48,13 @@ nav a{
     max-width: 1200px;
     margin: auto;
     padding: 20px;
+    position: relative;
+    top: 95px;
 }
 
 .titolo{
     font-family: "Roboto";
-    font-size: 80px;
+    font-size: 90px;
     font-weight: bolder;
     margin-bottom: 65px;
 }
@@ -65,7 +67,8 @@ nav a{
     display: flex;
     flex-direction: column;
     width: 40%;
-    justify-content: space-between;
+    flex-basis: 75%;
+
 }
 
 .jumbotron-flex img{
@@ -74,4 +77,16 @@ nav a{
 
 .jumbotron-flex span{
     font-family: "Roboto";
+}
+
+.jumbo-button{
+    padding: 12px 18px;
+    border: none;
+    margin: 2rem 0px;
+    font-size: 1.0rem;
+}
+
+.downarrow{
+    font-size: 60px;
+    margin-top: 60px;
 }
