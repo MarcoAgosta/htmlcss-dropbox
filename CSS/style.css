@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.flex{
+    display: flex;
+}
+
 nav{
     padding: 20px;
     display:flex;
@@ -74,6 +78,8 @@ nav a{
 
 .jumbotron-flex img{
     width: 100%;
+    display: block;
+    object-fit: cover;
 }
 
 .jumbotron-flex span{
@@ -94,7 +100,7 @@ nav a{
 
 .conteiner{
     margin: 150px auto;
-    width: 920px;
+    max-width: 920px;
 }
 
 main h1{
@@ -232,4 +238,37 @@ main h1{
 
 .enterprise span{
     margin-top: 50px;
+}
+
+.conteiner-partner{
+    width: 65%;
+}
+
+.conteiner-partner img{
+    width: 100%;
+}
+
+.conteiner-partner-testo{
+    width: 35%;
+    font-family: "Roboto";
+    padding: 3rem;
+}
+
+.conteiner-partner-testo span{
+    display: block;
+    margin: 1.2rem 0px;
+}
+
+.conteiner-partner-testo button{
+    border: 1px solid black;
+    padding: .8rem 1rem ;
+    color: black;
+    background-color: white;
+    margin-top: .5rem;
+    font-size: 1rem;
+}
+
+.operazioni-table{
+    display: flex;
+    flex-wrap: wrap;
 }
