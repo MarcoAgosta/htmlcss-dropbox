@@ -367,3 +367,27 @@ nav a{
 .clear{
     background-color: #FAD24B;
 }
+
+.blue-string{
+    background-color: #97CCF8;
+    padding: 150px 0px;
+}
+
+.conteiner-string{
+    width: 920px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.conteiner-string button{
+    border: none;
+    padding: .7rem 3rem;
+    color: black;
+}
+
+.conteiner-string h1{
+    width: 45%;
+    color: rgb(80, 0, 0);
+}
