@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: "Roboto";
 }
 
 .flex{
@@ -25,7 +26,6 @@ nav a{
     color: darkgray;
     margin: 0px 30px;
     vertical-align: super;
-    font-family: "Roboto";
 }
 
 .nav-button{
@@ -59,7 +59,6 @@ nav a{
 }
 
 .titolo{
-    font-family: "Roboto";
     font-size: 90px;
     font-weight: bolder;
     margin-bottom: 65px;
@@ -83,10 +82,6 @@ nav a{
     object-fit: cover;
 }
 
-.jumbotron-flex span{
-    font-family: "Roboto";
-}
-
 .jumbo-button{
     padding: 12px 18px;
     border: none;
@@ -104,8 +99,8 @@ nav a{
     max-width: 920px;
 }
 
-main h1{
-    font-family: "Roboto";
+.conteiner h1{
+    font-weight: bolder;
 }
 
 .piano-titolo{
@@ -116,7 +111,6 @@ main h1{
 }
 
 .piano-titolo span{
-    font-family: "Roboto";
     vertical-align: top;
 }
 
@@ -131,7 +125,6 @@ main h1{
     border: 1px solid darkgray;
     margin: 45px 0px;
     width: 31%;
-    font-family: "Roboto";
 }
 
 .piano-colonne{
@@ -221,7 +214,6 @@ main h1{
 .enterprise{
     position: relative;
     padding: 25px;
-    font-family: "Roboto";
     display: flex;
     flex-direction: column;
 }
@@ -251,7 +243,6 @@ main h1{
 
 .conteiner-partner-testo{
     width: 35%;
-    font-family: "Roboto";
     padding: 3rem;
 }
 
@@ -278,7 +269,7 @@ main h1{
 
 .operazioni-item{
     width: 30%;
-    font-family: "Roboto";
+    margin-bottom: 1.5rem;
 }
 
 .operazioni-item img{
@@ -288,4 +279,9 @@ main h1{
 .operazioni-item span{
     display: block;
     margin: 2rem 0px; 
+}
+
+.utilizzano a{
+    display: block;
+    margin-top:4rem;
 }
