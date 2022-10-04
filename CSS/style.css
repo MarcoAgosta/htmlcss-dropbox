@@ -370,7 +370,7 @@ nav a{
 
 .blue-string{
     background-color: #97CCF8;
-    padding: 150px 0px;
+    padding: 140px 0px;
 }
 
 .conteiner-string{
@@ -390,4 +390,78 @@ nav a{
 .conteiner-string h1{
     width: 45%;
     color: rgb(80, 0, 0);
+}
+
+.conteiner-domande{
+    margin: 150px auto;
+    max-width: 920px;
+    border-bottom: 1px solid darkgray;
+}
+
+.conteiner-domande h1{
+    margin-bottom: 4.5rem;
+}
+
+.domanda{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-top: 1px solid darkgray;
+}
+
+.domanda h4{
+    position: relative;
+    left: -2.5rem;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-conteiner{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-colonne{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+
+.footer-colonna{
+    color: white;
+}
+
+.footer-colonna h2{
+    margin-bottom: 2rem;
+}
+
+.footer-colonna ul{
+    list-style: none;
+}
+
+.footer-colonna li{
+    margin-bottom: 1.1rem;
+}
+
+.footer-colonna a{
+    text-decoration: none;
+    color: white;
+}
+
+.white-tratto{
+    background-color: white;
+    height: 1px;
+    width: 10%;
+    margin-bottom: 3rem;
+}
+
+.language{
+    color: darkgray;
+    padding-bottom: 3rem;
+}
+
+.fa-caret-up{
+    vertical-align: middle;
 }
