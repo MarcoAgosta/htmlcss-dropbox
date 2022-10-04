@@ -25,6 +25,7 @@ nav a{
     color: darkgray;
     margin: 0px 30px;
     vertical-align: super;
+    font-family: "Roboto";
 }
 
 .nav-button{
@@ -270,5 +271,21 @@ main h1{
 
 .operazioni-table{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
+    margin-top: 4rem;
+}
+
+.operazioni-item{
+    width: 30%;
+    font-family: "Roboto";
+}
+
+.operazioni-item img{
+    width: 100%;
+}
+
+.operazioni-item span{
+    display: block;
+    margin: 2rem 0px; 
 }
