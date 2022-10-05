@@ -16,16 +16,54 @@ nav{
     border-bottom: 1px solid darkgray;
     position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 10;
     width: 100vw;
     background-color: white;
 }
 
+.nav-voci{
+    display: flex;
+    justify-content: space-around;
+    width: 33.3%;
+}
+
+
 nav a{
     text-decoration: none;
     color: darkgray;
-    margin: 0px 30px;
-    vertical-align: super;
+    text-align: center;
+    position: relative;
+    top: 7px;
+}
+
+.tenda{
+    position: absolute;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-top: none;
+    width: 120%;
+    left: -10px;
+    top: 52px;
+}
+
+.nav-voce{
+    position: relative;
+    overflow: hidden;
+}
+
+.nav-voce:hover{
+    overflow: visible;
+}
+
+.tenda ul{
+    list-style: none;
+    color: darkgray;
+    text-align: center;
+}
+
+.tenda li{
+    border-bottom: 1px solid darkgray;
+    padding: .8rem 0;
 }
 
 .nav-button{
