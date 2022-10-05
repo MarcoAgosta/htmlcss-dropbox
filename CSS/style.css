@@ -413,7 +413,23 @@ nav a{
     justify-content: space-between;
     padding: 2.5rem;
     border-top: 1px solid darkgray;
+    flex-wrap: wrap;
 }
+
+.domanda:hover .coperto{
+    display: block;
+}
+
+.domanda:hover .coperto a{
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.coperto{
+    display: none;
+    margin-top: 2.5rem;
+}
+
 
 .domanda h4{
     position: relative;
