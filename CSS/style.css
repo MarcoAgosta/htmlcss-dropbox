@@ -239,6 +239,7 @@ nav a{
 
 .conteiner-partner img{
     width: 100%;
+    display: block;
 }
 
 .conteiner-partner-testo{
@@ -274,6 +275,7 @@ nav a{
 
 .operazioni-item img{
     width: 100%;
+    display: block;
 }
 
 .operazioni-item span{
@@ -295,22 +297,25 @@ nav a{
     width: 33.3%;
     display: flex;
     flex-wrap: wrap;
+    aspect-ratio: 1/1;
+    align-items: flex-start;
 }
 
 .cubo{
     width: 50%;
-    padding: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
+    aspect-ratio: 1/1;
 }
 
 .gray-cube{
     width: 33.33%;
     background-color: lightgray;
-    flex-shrink: 0;
     padding: 3%;
+    overflow: hidden;
+    aspect-ratio: 1/1;
 }
 
 .gray-cube span{
@@ -324,6 +329,7 @@ nav a{
 
 .gray-cube img{
     width: 50%;
+    display: block;
 }
 
 .Designit{
@@ -337,7 +343,7 @@ nav a{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 50%;
-    color: white;
+    filter: invert(100%);
 }
 
 .asu{
@@ -374,7 +380,7 @@ nav a{
 }
 
 .conteiner-string{
-    width: 920px;
+    max-width: 920px;
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -419,7 +425,7 @@ footer{
 }
 
 .footer-conteiner{
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
