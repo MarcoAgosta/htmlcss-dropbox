@@ -10,30 +10,36 @@
 }
 
 nav{
-    padding: 20px;
     display:flex;
     justify-content: space-between;
+    align-items: center;
     border-bottom: 1px solid darkgray;
     position: fixed;
     top: 0;
     z-index: 10;
     width: 100vw;
     background-color: white;
+    height: 72px;
 }
 
 .nav-voci{
     display: flex;
     justify-content: space-around;
     width: 33.3%;
+    height: 100%;
+}
+
+.nav-voci img{
+    width: 33%;
+    height: 50%;
+    position: relative;
+    bottom: -15px;
 }
 
 
-nav a{
-    text-decoration: none;
+nav span, nav a{
     color: darkgray;
-    text-align: center;
-    position: relative;
-    top: 7px;
+    text-decoration: none;
 }
 
 .tenda{
@@ -41,13 +47,17 @@ nav a{
     background-color: white;
     border: 1px solid darkgray;
     border-top: none;
-    width: 120%;
+    width: 150%;
     left: -10px;
-    top: 52px;
+    top: 71px;
 }
 
 .nav-voce{
     position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
 }
 
@@ -58,12 +68,17 @@ nav a{
 .tenda ul{
     list-style: none;
     color: darkgray;
-    text-align: center;
+    text-align: left;
 }
 
 .tenda li{
     border-bottom: 1px solid darkgray;
-    padding: .8rem 0;
+    padding: .8rem .5rem;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
 }
 
 .nav-button{
